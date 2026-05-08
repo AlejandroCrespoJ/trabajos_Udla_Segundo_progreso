@@ -24,4 +24,36 @@ int main(){
     printf("Ingrese el segundo numero: ");
     scanf("%f", &n2);
 
+    if(opcion == 1){
+
+        printf("Resultado: %.2f", suma(n1, n2));
+
+    }
+
+    else if(opcion == 2){
+
+        printf("Resultado: %.2f", resta(n1, n2));
+
+    }
+
+    else if(opcion == 3){
+
+        printf("Resultado: %.2f", multiplicacion(n1, n2));
+
+    }
+
+    else if(opcion == 4){
+
+        printf("Resultado: %.2f", division(n1, n2));
+
+    }
+
+    else{
+
+        printf("Opcion incorrecta");
+
+    }
+
+    return 0;
+
 }
