@@ -1,5 +1,1 @@
-float suma(float a, float b){
-
-    return a + b;
-
-}
+float suma(float a, float b);
